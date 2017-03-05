@@ -1,0 +1,9 @@
+C:\Users\student\Documents\Visual Studio 2013\Projects\ConsoleApplication143\ConsoleApplication143\bin\Debug\ConsoleApplication143.exe.config
+G:\програм\ConsoleApplication143\ConsoleApplication143\bin\Debug\ConsoleApplication143.exe.config
+G:\програм\Game\ConsoleApplication143\bin\Debug\ConsoleApplication143.exe.config
+G:\програм\Game 2.3\ConsoleApplication143\bin\Debug\ConsoleApplication143.exe.config
+G:\програм\Game 2.3\ConsoleApplication143\obj\Debug\ConsoleApplication143.csprojResolveAssemblyReference.cache
+G:\програм\Game 2.3\ConsoleApplication143\bin\Debug\ConsoleApplication143.exe
+G:\програм\Game 2.3\ConsoleApplication143\bin\Debug\ConsoleApplication143.pdb
+G:\програм\Game 2.3\ConsoleApplication143\obj\Debug\ConsoleApplication143.exe
+G:\програм\Game 2.3\ConsoleApplication143\obj\Debug\ConsoleApplication143.pdb
