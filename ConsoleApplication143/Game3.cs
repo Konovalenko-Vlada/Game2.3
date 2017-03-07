@@ -10,13 +10,20 @@ namespace ConsoleApplication143
     {
         public List<Step> Steps = new List<Step>();
 
-        void Step(int value)
+        public override void Shift(int value)
+        { 
+                Step temp_step = new Step();
+                temp_step.Val = value;
+                temp_step.Before = GetLocation(value);
+
+                base.Shift(value);
+                temp_step.After = GetLocation(value);
+           
+        }
+
+        public void step_back()
         {
-            Step temp_step = new Step();
-            temp_step.val = value;
-            temp_step.before = GetLocation(value);
-            Shift(value);
-            temp_step.after = GetLocation(value);
+            Steps.RemoveAt(Steps.Capacity-1);
         }
     }
 }

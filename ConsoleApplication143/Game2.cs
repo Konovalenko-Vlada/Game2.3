@@ -8,32 +8,39 @@ namespace ConsoleApplication143
 {
     class Game2 : Game
     {
-        public Game2(params int[] data) : base(data)
+        void Random()
         {
             Random rand = new Random();
-            for (int i = 0; i < Coords.Count - 1; i++)
-            {
-                int rand_index = rand.Next(i, Coords.Count);
-                Coordinate temp_coord = Coords[i];
-                Coords[i] = Coords[rand_index];
-                Coords[rand_index] = temp_coord;
-            }
+
+            Coordinate zero = base.GetLocation(0);
+            int rand_index_x = rand.Next(-1,1);
+            int rand_index_y = rand.Next(-1, 1);
+
+            zero.x += rand_index_x;
+            zero.y += rand_index_y;
+
+            int val = this[zero.x, zero.y];
+            Shift(val);
         }
 
-        public bool Result()
+        public bool Result
         {
-            int k = 0;
-            for (int i = 0; i < Val.Length; i++)
+            get
             {
-                for (int j = 0; j < Math.Sqrt(Val.Length); j++)
+                int k = 0;
+                for (int i = 0; i < Math.Sqrt(Val.Length) - 1; i++)
                 {
-                    if (Val[i, j] != k++)
+                    for (int j = 0; j < Math.Sqrt(Val.Length) - 1; j++)
                     {
-                        return false;
+                        if (Val[i, j] != k++ || Val[((int)(Math.Sqrt(Val.Length) - 1)), ((int)(Math.Sqrt(Val.Length) - 1))] != 0) //****
+                        {
+                            return false;
+                        }
                     }
                 }
-            }
-            return true;
+                return true;
+             } 
         }
+
     }
 }

@@ -7,3 +7,9 @@ G:\програм\Game 2.3\ConsoleApplication143\bin\Debug\ConsoleApplication143
 G:\програм\Game 2.3\ConsoleApplication143\bin\Debug\ConsoleApplication143.pdb
 G:\програм\Game 2.3\ConsoleApplication143\obj\Debug\ConsoleApplication143.exe
 G:\програм\Game 2.3\ConsoleApplication143\obj\Debug\ConsoleApplication143.pdb
+G:\програм\Game-2.3\ConsoleApplication143\bin\Debug\ConsoleApplication143.exe.config
+G:\програм\Game-2.3\ConsoleApplication143\obj\Debug\ConsoleApplication143.exe
+G:\програм\Game-2.3\ConsoleApplication143\obj\Debug\ConsoleApplication143.pdb
+E:\програм\Game-2.3\ConsoleApplication143\bin\Debug\ConsoleApplication143.exe.config
+E:\програм\Game-2.3\ConsoleApplication143\obj\Debug\ConsoleApplication143.exe
+E:\програм\Game-2.3\ConsoleApplication143\obj\Debug\ConsoleApplication143.pdb
